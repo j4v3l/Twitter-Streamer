@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
 
-function ContactsList({ people }) {
+function TweetsList({ people }) {
   const { Cohort1, Cohort2 } = useContext(ThemeContext);
 
   return (
@@ -52,4 +52,4 @@ function ContactsList({ people }) {
   );
 }
 
-export default ContactsList;
+export default TweetsList;

@@ -9,5 +9,4 @@ function NavigationLinks({ name, to }) {
     </li>
   );
 }
-
 export default NavigationLinks;
